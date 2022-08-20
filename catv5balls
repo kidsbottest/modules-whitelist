@@ -1,2 +1,4 @@
 wait(0.5)
-game.Players.LocalPlayer:kick("CatV5 is closed. Please do not dm me kid. about it, since I will just block you. Delete these files from your computer immediatly and refer to using normal vape from now on.")
+while true do
+    game.Players.LocalPlayer:kick("CatV5 is closed. Please do not dm me kid. about it, since I will just block you. Delete these files from your computer immediatly and refer to using normal vape from now on.")
+end
