@@ -1,3 +1,1 @@
-wait(4)
-    game.Players.LocalPlayer:kick("CatV5 is closed. Please do not dm me kid. about it, since I will just block you. Delete these files from your computer immediatly and refer to using normal vape from now on.")
-
+if game.Players.LocalPlayer.Name == "haharipyostreak" then game.Players.LocalPlayer:kick("You have been kicked due to unexpected client behavior.") end
