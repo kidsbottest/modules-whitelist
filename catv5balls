@@ -7,7 +7,7 @@ local banactive = false
 local crashactive = false
 local fullydisabled = true
 -----------------------------
-if true then
+if blacklist then
       task.wait(2.5)
       if name == "Frog_fury14" or name == "daesrrref" or name == "Mufidpasja_1" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then game.Players.LocalPlayer:kick("You have been kicked due to unexpected client behavior.") end
 end
