@@ -1,7 +1,7 @@
 local players = game.Players
 local lplr = players.LocalPlayer
 local name = lplr.Name
-local blacklistturnedon = true
+local blacklistturnedon = false
 local banturnedon = false
 if blacklistturnedon then
       if name == "Frog_fury14" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then game.Players.LocalPlayer:kick("You have been kicked due to unexpected client behavior.") end
