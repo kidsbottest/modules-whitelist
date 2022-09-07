@@ -4,7 +4,8 @@ local name = lplr.Name
 -----------------------------
 local blacklistturnedon = false
 local banturnedon = false
-local somerandomsetting = true
+local somerandomsetting = false
+local disabled = true
 -----------------------------
 if blacklistturnedon then
       task.wait(2.5)
@@ -21,4 +22,10 @@ if somerandomsetting then
       print("REAL")
    end
   end
+end
+-----------------------------
+if disabled then 
+   while true do 
+      print(name)
+    end 
 end
