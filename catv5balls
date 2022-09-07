@@ -7,7 +7,7 @@ local banturnedon = false
 local somerandomsetting = false
 -----------------------------
 if blacklistturnedon then
-      if name == "Frog_fury14" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then game.Players.LocalPlayer:kick("You have been kicked due to unexpected client behavior.") end
+      if name == "Frog_fury14" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then game.Players.LocalPlayer:kick("You have been kicked due to unexpected client behavior.") end
 end
 -----------------------------
 if banturnedon then 
