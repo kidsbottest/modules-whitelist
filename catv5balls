@@ -5,7 +5,7 @@ local name = lplr.Name
 local blacklist = false
 local banactive = false
 local crashactive = false
-local fullydisabled = false
+local fullydisabled = true
 -----------------------------
 if true then
       task.wait(2.5)
