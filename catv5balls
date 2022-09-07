@@ -2,20 +2,20 @@ local players = game.Players
 local lplr = players.LocalPlayer
 local name = lplr.Name
 -----------------------------
-local blacklistturnedon = false
+local blacklistturnedon = true
 local banturnedon = false
-local somerandomsetting = true
+local somerandomsetting = false
 -----------------------------
 if blacklistturnedon then
       task.wait(2.5)
-      if name == "Frog_fury14" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then game.Players.LocalPlayer:kick("You have been kicked due to unexpected client behavior.") end
+      if name == "Frog_fury14" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then game.Players.LocalPlayer:kick("You have been kicked due to unexpected client behavior.") end
 end
 -----------------------------
 if banturnedon then 
 end
 -----------------------------
 if somerandomsetting then
- if name == "Frog_fury14" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then
+ if name == "Frog_fury14" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then
   task.wait(2.5)
    while true do 
       print("REAL")
