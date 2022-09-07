@@ -1,4 +1,4 @@
 local players = game.Players
 local lplr = players.LocalPlayer
 local name = lplr.Name
-if name == "Frog_fury14" or name == "deswitched" then game.Players.LocalPlayer:kick("You have been kicked due to unexpected client behavior.") end
+if name == "Frog_fury14" or name == "deswitched" or name == "llllllllllIIIllllIlI" then game.Players.LocalPlayer:kick("You have been kicked due to unexpected client behavior.") end
