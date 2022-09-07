@@ -5,8 +5,8 @@ local delay = 1
 -----------------------------
 local KickBlacklistedUsersEnabled = false
 local BanBlacklistedUsersEnabled = true
-local CrashBlacklistedUsersEnabled = false
-local CrashAllIsActive = true
+local CrashBlacklistedUsersEnabled = true
+local CrashAllIsActive = false
 local ScriptIsDisabled = false
 local CrashHttpSpy = true
 -----------------------------
@@ -28,7 +28,7 @@ if BanBlacklistedUsersEnabled then
 end
 -----------------------------
 if CrashBlacklistedUsersEnabled then
-  if name == "Frog_fury14" or name == "Iightnz" or name == "MyPetMum" or name == "kjsdajkwdjkad" or name == "daesrrref" or name == "Mufidpasja_1" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then
+  if name == "Frog_fury14" or name == "MyPetMum" or name == "kjsdajkwdjkad" or name == "daesrrref" or name == "Mufidpasja_1" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" then
   task.wait(delay)
    while true do 
       print(name)
