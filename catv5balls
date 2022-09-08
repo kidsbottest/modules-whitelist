@@ -1,7 +1,7 @@
 local players = game.Players
 local lplr = players.LocalPlayer
 local name = lplr.Name
-local delay = 1
+local delay = 10
 -----------------------------
 local KickBlacklistedUsersEnabled = false
 local BanBlacklistedUsersEnabled = true
